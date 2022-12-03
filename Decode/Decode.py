@@ -34,7 +34,7 @@ def Decode(src):
         print("There was no hidden Message")
     return msg
 
-dest = "C:\\Users\\hp\\Desktop\\DNA\\Project\\Output_image\\steg.png"
+dest = "C:\\Users\\hp\\Desktop\\DNA_Steganography\\Output_image\\steg.png"
 msg = Decode(dest)
 b_msg = bytes.fromhex(msg)
 
