@@ -77,8 +77,8 @@ filewrite = fwrite(compr)
 AESenc.encryption()
 
 
-orig_img = "Original_image\\hut.png"
-destImg = "Output_image\\steg.png"
+orig_img = "C:\\Users\\hp\\Desktop\\DNA_Steganography\\Original_image\\hut.png"
+destImg = "C:\\Users\\hp\\Desktop\\DNA_Steganography\\Output_image\\steg.png"
 with open('encrypted.bin','rb') as f:
     message = f.read()
     f.close()
