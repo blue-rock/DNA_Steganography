@@ -84,3 +84,4 @@ with open('encrypted.bin','rb') as f:
     f.close()
 hexmessage = message.hex()
 Steganography.Encode(orig_img,hexmessage,destImg)
+z = input("Press enter to exit")
